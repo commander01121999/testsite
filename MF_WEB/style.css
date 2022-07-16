@@ -1,0 +1,180 @@
+
+body{
+
+  
+  font-size: large;  
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+   
+}
+
+
+.lingr
+{
+  height: 350px;
+  background-image: linear-gradient(to left , #BFFFB2 , #FFFFFF);
+  
+  
+}
+
+.lingr1
+{
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(to right , #E7EFFE , #FFFFFF);
+}
+
+.lingr3
+{
+  height: 700px;
+  background-image: linear-gradient(to left , #BFFFB2 , #FFFFFF);
+  padding-top: 1.2%;
+  
+}
+
+.lingr4
+{
+  width: 100%;
+  height: 800px;
+  background-image: linear-gradient(to right , #E7EFFE , #FFFFFF);
+}
+
+.lingr5
+{
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(to right , #E7EFFE , #FFFFFF);
+}
+
+.hero_txt
+{
+  
+  margin-top: 10px;   
+  font-size: large;  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.card{
+  
+  border-radius: 2em;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+
+color:white;
+}
+
+.fa-twitter {
+
+color:white;
+}
+.fa-instagram {
+
+color:white;
+}
+
+
+.our_work{
+    width: 100%;
+    height: 100%;
+    margin-left:50px;
+  }
+
+
+
+.card-img-top{
+  height :40%;
+}
+
+ /*-------------------------------------------*/
+
+  
+ /*--------------------executive committee------------------------*/
+
+
+ .content {
+  margin-top:-500px;
+  border-radius: 5px;
+  width:1000px;
+  padding: 10px 10px 0;
+  margin: 16px 0
+}
+
+.content::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.content img {
+  float: right;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+.demo-content {
+  background-color:white;
+  margin-top:-1000px;
+  margin-right:500px;
+  border: 1px solid #ccc;
+  height:150px;
+  border-radius: 5px;
+  padding: 10px 10px 0;
+  margin: 16px 0
+}
+
+
+@media (max-width: 1080px) {
+  .content {
+      text-align: center;
+      width: 75%;
+  }
+  .content img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
+
+
+/*-----------------------------executive committe-----------------------------*/
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+.lingr
+{
+  width: 100%;
+  height: 1000px;
+  background-image: linear-gradient(to left , #BFFFB2 , #FFFFFF);
+  margin-top: -50px;
+  
+}
+
+.lingr1
+{
+  width: 100%;
+  height: 330px;
+  background-image: linear-gradient(to right , #E7EFFE , #FFFFFF);
+  margin-top: -280px;
+  
+}
+}
+
+
+
+/*--------------------------------------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------------------*/
